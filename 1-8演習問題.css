@@ -9,3 +9,49 @@
 	display: block;
 	clear: both;
 }
+
+main {
+	width: 960px;
+	margin: 50px auto;
+}
+
+.list-item {
+	padding: 20px;
+}
+
+.list-item:nth-child(odd) {
+	background-color: #ababab;
+}
+
+.boxes {
+	margin-top: 50px;
+}
+
+.box {
+	float: left;
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	background-color: yellow;
+}
+
+.box:nth-child(3n) {
+	margin-right: 0;
+}
+
+.box:nth-child(7+n) {
+	margin-bottom: 0;
+}
+
+.box:first-child {
+	background-color: orange;
+}
+
+.box:nth-child(5) {
+	background-color: orange;
+}
+
+.box:last-child {
+	background-color: orange;
+}
